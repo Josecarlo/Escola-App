@@ -1,7 +1,7 @@
 <html ng-app="EscolaApp">
 
 <head>
-    <title>Escola</title>
+    <title>Escolas</title>
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="css/escola.css">
@@ -72,7 +72,7 @@
                   <button type="button" class="btn btn-primary btn-lg btn-block"
                     ng-click="listarAvaliacoes(codEscola)">
                       Listar
-                  </button> 
+                  </button>
               </div>
 
               <!-- Tabela da Escola -->
@@ -83,7 +83,7 @@
                               <th scope="col">Avaliações</th>
                               <th scope="col">Nome</th>
                               <th scope="col">Código</th>
-                              
+
                           </tr>
                       </thead>
                       <tbody>
@@ -91,7 +91,7 @@
                               <td scope="row">{{}}</td>
                               <td scope="row">{{escola[0].tipoAvaliacao.nome}}</td>
                               <td scope="row">{{escola[0].tipoAvaliacao.cod}}</td>
-                              
+
                           </tr>
                       </tbody>
                   </table>
